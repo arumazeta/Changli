@@ -1,14 +1,14 @@
-name = "changli"
+name = "cartethyia"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 
-account_id = "05f49c4336ab8d1df4fabeeebbcdb083"
+account_id = "b2f3e62bf40b9dc0bf06d76392a7bdca"
 workers_dev = true
 
 [[kv_namespaces]]
 binding = "YUMI"
-id = "5067ad020c154b56966b5e6726f8bc4c"
+id = "a4fc071c1fba4bc6bb52522070fa5a8e"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
@@ -17,6 +17,6 @@ command = "cargo install worker-build && worker-build --release"
 build = { command = "cargo install worker-build && worker-build --dev" }
 
 [vars]
-UUID = "aacac2d2-cac8-442a-9f2c-4e4f807065f5"
+UUID = "7327f1ff-95f7-4e29-997e-482a69d0ca57"
 MAIN_PAGE_URL = "https://raw.githubusercontent.com/Mayumiwandi/Changli/refs/heads/main/web/index.html"
 SUB_PAGE_URL = "https://raw.githubusercontent.com/Mayumiwandi/Changli/refs/heads/main/web/sub.html"
